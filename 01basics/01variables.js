@@ -1,3 +1,6 @@
+//Below are the variables of JavaScript
+//const,let,var
+
 const accountId=122534
 let accountEmail="darshan@gmail.com"
 var accountPassword="123123"

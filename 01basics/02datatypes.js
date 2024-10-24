@@ -1,29 +1,52 @@
-"use strict"; // treat all js code as  newer version
-// alert(3 + 3) we are not supposed to use this alert in node js. we can use alert(3 + 3) method only in the browser console
+//"use strict"; // treat all js code as  newer version
 
-let name="Darshan"
-let age=26
-let isLoggedIn =  true //Boolean type of data type
+//There are 2 types of data typess in js
+//01 Primitive datatype
+//02 Reference Datatype
+//below are the primitive datatypes of JavaScript 
+//String,Number,Boolean,null,undefined,Symbol
+const nam ="darshandeep" //string
+console.log(typeof nam)
 
-console.log("Deepak");
+const num=1212 //number
+console.log(typeof num);
+
+const c=true //boolean
+console.log(typeof c);
+
+const a=null //we are storing a values of nothing
+console.log(typeof a);
+
+let l; //undefined  we donot initialize it with a value
+console.log(typeof l);
+
+//Below are the Reference datatypes of JavaScript
+//Arrays,Object Literals,Date
+
+const arr=[1,2,3] //Array
+console.log(typeof arr);
+
+const ol={            //Object Literal
+    name: "Darshan",
+    age: 27,
+};
+console.log(typeof ol);
+
+const today=new Date(); //Date 
+console.log(today);
+console.log(typeof today);
 
 
-/* Primitive datatypes
-// number=> 2  to the power of 53
-// String =>""
-// bigint => used in larger number
-// bolean => true of false
-// null => standalone value
-// undefined => means value is not defined
-// symbol => to define the unique values
-*/
 
-// Objective type
-console.log(typeof "Darshan")
-console.log(typeof 26);
-console.log(typeof null); // we get o/p as object
 
-console.log(typeof undefined); // we get o/p as undefined
+
+
+
+
+
+
+
+
 
 
 
