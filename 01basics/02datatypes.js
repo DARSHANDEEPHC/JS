@@ -1,8 +1,10 @@
 //"use strict"; // treat all js code as  newer version
 
-//There are 2 types of data typess in js
-//01 Primitive datatype
+//There are 2 types of data types in js
+//01 Primitive datatype 
+//Strings,Boolean,Number,Symbol,Null,Undefined.
 //02 Reference Datatype
+//Arrays,Objects
 //below are the primitive datatypes of JavaScript 
 //String,Number,Boolean,null,undefined,Symbol
 const nam ="darshandeep" //string
@@ -14,7 +16,7 @@ console.log(typeof num);
 const c=true //boolean
 console.log(typeof c);
 
-const a=null //we are storing a values of nothing
+const a=null //we are storing a values of nothing it shows the result as Object for null datatype
 console.log(typeof a);
 
 let l; //undefined  we donot initialize it with a value

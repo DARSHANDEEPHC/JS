@@ -20,8 +20,22 @@ console.log(str.length);
 let m=true
 let n=Boolean(12)
 console.log(m);
-console.log(n);
+//console.log(n);
 console.log(typeof n,m);
+
+//using toString()
+ val =(5).toString();
+ console.log(val);
+ console.log(typeof val);
+ 
+//string to Number
+
+val=Number("2");
+console.log(val.toFixed(3)); //toFixed() method is used to add the decimal after a number //toFixed() can't used with val=2;
+console.log(typeof val);
+
+
+ 
 
 
 
