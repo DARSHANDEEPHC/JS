@@ -44,7 +44,23 @@ const multiplication=function(a) //First we are declaring the variabl "const" fo
 }
 console.log(multiplication(5));
 
+//To find the given number is even or not
+function isEven(num)
+{
+    return num % 2==0
+}
+console.log(isEven(24));//give o/p as true
+console.log(isEven(11));//give o/p as false
 
+//factorial 
+function factorial(n) {
+    if (n === 0) {
+      return 1;
+    }
+    return n * factorial(n - 1);
+  }
+  
+  console.log(factorial(4)); // => 24
 
 const multi=function(a,b)
 {
@@ -80,7 +96,7 @@ const person={
 }
 console.log(person.getBirthday());
 
-
+//
 const person1={
     getBirthday:function(day)
     {
