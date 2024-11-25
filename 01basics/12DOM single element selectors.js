@@ -1,4 +1,11 @@
 // single element selector
 // document.getElementById 
 // selecting a single element from HTML and changing or updating that HTML element in JavaScript.
-const forms=document.getElementById("Action")
+
+
+console.log(document.getElementsByClassName("Sales-table"));
+console.log(document.getElementById("para"));
+
+//change style
+
+
