@@ -1,3 +1,8 @@
+//When a webpage is loaded browser creates DOM of the page.
+//Websites are made up of HTML and/or XML documents. These documents are static, they do not change. 
+//The Document Object Model (DOM) is a programming interface implemented by browsers to make static websites functional. 
+//The DOM API can be used to change the document structure, style, and content. 
+//To print object we use console.dir(window.document)
 // single element selector
 // document.getElementById 
 // selecting a single element from HTML and changing or updating that HTML element in JavaScript.
@@ -15,16 +20,34 @@ val=document.domain;
 val=document.characterSet; //It shows which kind of charset is used like (UTF).
 val=document.forms;
 val=document.forms[0];
-val=document.table.id;
+//val=document.table.id;
 val=document.links;
 
+//console.log(val);
 
-
-console.log(val);
-
-// console.log(document.getElementsByClassName());
-// console.log(document.getElementById());
+console.log(document.getElementsByClassName("task"));
+//console.log(document.getElementById("task-title").id); //geting the element from html to JS using getElementById() method
+console.log(document.getElementById("task-title").className);
 
 //change style
+
+const taskTitle= document.getElementsById("navbar-title");
+taskTitle.style.backgroundColor='red';
+taskTitle.style.color='green';
+taskTitle.style.color='5px';
+
+//Text content
+
+taskTitle.textContent= "Darshan"; //we are using textContent & innerText to change the text that in HTML
+taskTitle.innerText= "DarshanDeep";
+taskTitle.innerHTML= '<span style=color:blue>Da</span>'; //innerHTML is used to append the HTML
+
+
+//document.querySelector in this selector we can select multiple elements
+
+console.log(document.querySelector("#item-table")); //accessing id
+console.log(document.querySelector(".Items")); //accesing class
+console.log(document.querySelector("h1"));
+
 
 
