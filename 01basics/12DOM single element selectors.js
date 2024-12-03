@@ -45,9 +45,10 @@ taskTitle.innerHTML= '<span style=color:blue>Da</span>'; //innerHTML is used to 
 
 //document.querySelector in this selector we can select multiple elements
 
-console.log(document.querySelector("#item-table")); //accessing id
-console.log(document.querySelector(".Items")); //accesing class
-console.log(document.querySelector("h1"));
-
-
+console.log(document.querySelector("#item-table")); //to access the id in query selector use # symbol accessing id
+console.log(document.querySelector(".Items")); // to access the class in query selector use . symbol accesing class
+console.log(document.querySelector("h1")); //accessing the header in query selector
+document.querySelector("li").style.color="red"; // coloring the list element
+document.querySelector("li.last-child").style.color="Blue";  //coloring the last list element
+document.querySelector("li.nth-child").style.color="maroon";  //coloring the middle list element
 
